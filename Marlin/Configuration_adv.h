@@ -3455,3 +3455,7 @@
 
 // Enable Marlin dev mode which adds some special commands
 //#define MARLIN_DEV_MODE
+
+#ifdef TARGET_LPC1768
+    #define SDCARD_CONNECTION // Use the SD drive on the control board.
+#endif
