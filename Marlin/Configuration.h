@@ -132,11 +132,11 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "ender3-01"
+#define CUSTOM_MACHINE_NAME "ender3-02"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
-#define MACHINE_UUID "F93EF8D0-5441-48CF-B20E-EAA998599992"
+#define MACHINE_UUID "DBF85DD1-175B-428C-ADB5-CED92F5263A4"
 
 // @section extruder
 
