@@ -973,7 +973,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -35 , 0, -3.00 }
+#define NOZZLE_TO_PROBE_OFFSET { -37, 0, -0.85 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1109,12 +1109,12 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 210
-#define Y_BED_SIZE 220
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 205
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -10
-#define Y_MIN_POS 0
+#define X_MIN_POS -3
+#define Y_MIN_POS -29
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
@@ -1220,8 +1220,8 @@
  *   With an LCD controller the process is guided step-by-step.
  */
 //#define AUTO_BED_LEVELING_3POINT
-#define AUTO_BED_LEVELING_LINEAR
-// #define AUTO_BED_LEVELING_BILINEAR
+// #define AUTO_BED_LEVELING_LINEAR
+#define AUTO_BED_LEVELING_BILINEAR
 //#define AUTO_BED_LEVELING_UBL
 //#define MESH_BED_LEVELING
 
